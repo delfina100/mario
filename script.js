@@ -69,7 +69,7 @@ const startGame = () => {
         function stopAudio() {
           audioGameOver.pause()
         }
-        setTimeout(stopAudio, 70)
+        setTimeout(stopAudio, 700)
   
         gameOver.style.display = 'flex'
   
