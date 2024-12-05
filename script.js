@@ -18,7 +18,7 @@ const startGame = () => {
     gameOver.style.display = 'none'
     pipe.style.left = ''
     pipe.style.right = '0'
-    mario.src = 'mario imagens/mario.gif'
+    mario.src = 'mario.gif'
     mario.style.width = '150px'
     mario.style.bottom = '0'
   
@@ -54,7 +54,7 @@ const startGame = () => {
         mario.classList.remove('.jump')
         mario.style.bottom = `${marioPosition}px`
   
-        mario.src = 'mario imagens/game-over.png'
+        mario.src = 'game-over.png'
         mario.style.width = '80px'
         mario.style.marginLeft = '50px'
   
@@ -69,7 +69,7 @@ const startGame = () => {
         function stopAudio() {
           audioGameOver.pause()
         }
-        setTimeout(stopAudio, 7000)
+        setTimeout(stopAudio, 70)
   
         gameOver.style.display = 'flex'
   
